@@ -1,7 +1,7 @@
 namespace nitrogenice {
   class Vector {
   public:
-    Vector(int s);
+    explicit Vector(int s);
 
     double& operator[](int i);
 
